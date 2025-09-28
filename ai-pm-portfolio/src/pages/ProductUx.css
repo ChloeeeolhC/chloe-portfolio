@@ -1,0 +1,30 @@
+
+.case-study-container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px; /* Add space between case studies */
+}
+
+.case-study-container h5 {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.case-study-container p,
+.case-study-container li {
+    color: #343a40; /* Darker text for better readability */
+    line-height: 1.6;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.figma-embed-container {
+    margin-top: 20px;
+    width: 100%;
+}

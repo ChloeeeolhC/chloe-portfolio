@@ -1,0 +1,31 @@
+export const f1Content = `
+体育媒体[global institute of sport](https://gis.sport/news/the-true-size-of-the-global-sports-industry/?utm_source=chatgpt.com)指出，美国是全球最大、利润最高的体育市场。但F1这项已经在欧洲拥有数千万车迷的运动，却在美国长期遭受着「水土不服」的尴尬。[金融时报](https://www.ft.com/content/4e931167-b0d6-48bd-bbbd-443837be5dc8?utm_source=chatgpt.com)指出，1980年代，F1为了吸引美国体育迷，花费数十亿美金，在底特律和凤凰城举办比赛， 而结果却是，F1一度因为同期举办的鸵鸟节而失去吸引力，鸵鸟节的观众数量是F1赛车观众的六七倍。也就是说「那时的美国人宁愿看不会飞的鸟互相比赛，也不愿意看F1赛车」。2012年，F1 在退出美国市场5年后重返奥斯汀举办大奖赛，但转播收视率几乎可以忽略不计。为了保住在美国主流平台的曝光，2018年，F1方面主动“免费”授权 ESPN 转播三年。而ESPN也是直接用英国天空体育的国际信号进行转播。[华尔街日报](https://www.wsj.com/sports/formula-one-american-audience-f7215bd5?gaa_at=eafs&gaa_n=ASWzDAhDRixaHCO1XD1-SgXVDiPfVH9dU2EPLtd0lft-ywVHZQu5Bs1zICKMSiJtGGU%3D&gaa_ts=68731a9d&gaa_sig=1Tsut10q603hJeOf1Dvvgfabd84O4srzXYhJC8hd4iaDim-7HJb8EB5uRMi851W5QTfPp0q56cTlP6k6zxvK5Q%3D%3D)的分析认为，长期以来， 美国人都认为F1 缺乏亲切感，转播时英国口音的解说、复杂的规则和技术听起来就像是另外一门语言。
+
+但到今年，美国已经成为了F1发展的重点市场。美国时政杂志 [the week](https://theweek.com/sports/formula-one-us-popularity)指出，观看F1直播的美国观众数量已经比2018年翻了一番，行业媒体 [Motorsport](https://www.usatoday.com/story/sports/motor/formula1/2025/07/01/formula-1-survey-us-popularity/84422818007/)的数据显示，目前，F1的美国粉丝已经超过了5200万，并且粉丝群体更加年轻、富裕，性别比例也要更加均衡。同时 ，F1在美国的商业化也取得了进展。F1和ESPN美国的转播合同将于明年到期，花旗的[分析师](https://www.ft.com/content/d92c33ff-60a9-4de1-bd07-bc6541d13723?utm_source=chatgpt.com)预计下一份续约费用将大幅上涨，从现在的8500万美元上升到1.5亿美元左右。另外，根据[GlobalData](https://www.sportcal.com/features/drive-to-thrive-how-f1-revitalized-itself-and-became-commercial-giant/?cf-view)发布的 F1商业报告，今年美国公司也已经成为F1的最大赞助市场，投资总额 16 亿美元。
+
+**那么F1是怎样在美国实现从「边缘小众运动」到「收获大量粉丝」的转变的呢？**
+
+这一切要从2017年的那场收购说起。[金融时报](https://www.ft.com/content/4e931167-b0d6-48bd-bbbd-443837be5dc8?utm_source=chatgpt.com)指出，在美国自由媒体集团以44亿美元的价格完成对 F1赛事归属权的收购后，他们迅速确定了美国是最重要的增长市场。在2023年12月，我们早咖啡也做过一期关于 自由媒体集团如何运作f1的轻解读，感兴趣的朋友可以点击shownotes中的链接收听这期[节目](https://www.xiaoyuzhoufm.com/episode/656f070ab4b5dd5510bacce5)。
+和我们之前的节目所说的一样，奈飞的热门纪录片Drive to Survive是美国F1粉丝群体最强加速器之一。影片通过用真人秀的方式展现比赛中的戏剧性，并塑造围场中各种各样的人物性格，吸引了大量的非赛车迷粉丝，体育媒体 The Athletic指出，美国超过三成的新F1观众，正是受这部纪录片影响，才开始关注这项运动。
+2022年和2023年，F1还在奥斯汀大奖赛外增设了迈阿密、拉斯维加斯分站。[the week](https://theweek.com/sports/formula-one-us-popularity)杂志指出，这两个分站的比赛已经被塑造成了「体育+娱乐」的大型盛事。比如拉斯维加斯大奖赛就融合了拉斯维加斯的夜景，赛道也穿越酒店、赌场等城市地标，而今年的迈阿密大奖赛，车手们还开上了用乐高做成的和真实赛车同样大小的积木赛车进行巡游，有[行业媒体](https://www.coreeventsgroup.co.uk/blog/what-makes-the-las-vegas-grand-prix-unique-compared-to-other-formula-1-races?utm_source=chatgpt.com)指出，这些方式不仅适合赛车迷，也吸引任何寻求娱乐体验的人。
+另外，社交媒体也为F1在美国的兴起，起到了关键作用。[F1官方网站](https://corp.formula1.com/formula-1-and-motorsport-network-unveil-2025-global-fan-survey-gen-z-women-and-u-s-audiences-leading-new-era-of-modern-fandom/?utm_source=chatgpt.com)显示，在美国，有七成的 Z 世代F1粉丝每天都会观看 F1 内容，尤其是通过短视频。
+不过，[CNBC](https://www.cnbc.com/2024/04/30/f1s-fanbase-is-shifting-and-the-netflix-effect-is-only-part-of-that.html)指出，虽然F1的美国粉丝已经成倍增长，但比赛收视率仍然不到美国本土赛车比赛NASCAR的三分之一。[BusinessInsider](https://www.businessinsider.com/f1-formula-one-united-states-popularity-tv-ratings-netflix-2023-7?utm_source=chatgpt.com)也认为，让美国人看奈飞F1纪录片是一回事，但让他们顶着时差观看F1比赛却是另一回事。
+
+**那么想要让美国观众持续地热爱F1，还需要补充什么关键要素呢？**
+
+答案是，美国车手。
+虽然 F1电影中，皮特饰演的美国车手 Sonny 收获了大批粉丝，但实际上，美国目前并没有这样顶尖的F1赛车手。在今天真实世界的10支 F1 车队里，只有哈斯，这一支美国车队，但车队也没有美国车手。并且[自1990年以来，只有四位美国人参加过F1比赛](https://www.washingtonpost.com/sports/interactive/2023/formula-one-american-drivers/)。最近一位参加F1比赛的美国车手是[洛根·萨金特，](https://www.espn.com/racing/indycar/story/_/id/42628685/indycar-imsa-williams-f1-exit-comes-next-american-logan-sargeant)但他在2023赛季初加入威廉姆斯车队后，只停留了不到两个赛季，就离开了F1。
+[华尔街日报](https://www.wsj.com/sports/formula-one-american-audience-f7215bd5?mod=ig_formulaonereport)指出，一位实力出众的F1车手，能够在自己国家引发巨大的关注和影响力。比如，曾夺得过七届世界冠军的舒马赫几乎凭一己之力重振了德国人对F1的兴趣，而在近几年的冠军车手维斯塔潘的影响下，荷兰车迷组成的橙色海洋也已经成为世界各地赛道上的常客。前红牛领队克里斯蒂安·霍纳在[彭博社](https://www.bloomberg.com/news/videos/2022-10-20/power-players-christian-horner-red-bull-racing)的节目中表示，这项运动要想持续在美国发展就需要一个主场英雄，一个有冲击冠军潜质的美国车手。
+不过，[the week](https://theweek.com/sports/formula-one-us-popularity)认为，美国车手称霸F1的可能性很低。近五十年来，都还没有美国车手赢得过比赛。**那么为什么美国很少出现顶尖的F1车手呢？**
+
+**原因之一：F1积分体系高度「欧洲中心化」**
+一名车手要想进入F1，通常需要从卡丁车、F4、F3一路晋级到F2，车手还要在这些赛事中通过拿好成绩，积累足够的超级驾照积分，才有资格被 F1 车队选中。[纽约时报](https://www.nytimes.com/2024/10/17/sports/autoracing/f1-united-states-grand-prix-austin.html)指出，F1和它下属的F2、F3等晋级赛事以及青训体系，几乎都集中在欧洲。而F1超级驾照的积分体系也高度向欧洲赛事倾斜。[行业媒体](https://www.planetf1.com/features/seven-reasons-why-us-drivers-struggle-in-f1)指出，美国本土赛车比赛在超级驾照体系中的权重，要比F2等欧洲赛事更低，这也使得欧洲以外的车手想要进入超级驾照体系更加困难。
+
+**原因之二：非欧洲车手进入f1车队，要面临多重挑战**
+根据[华盛顿邮报](https://www.washingtonpost.com/sports/interactive/2023/formula-one-american-drivers/)的报道，国际汽车联合会规定，每支F1车队只能派两名车手上场，车队给车手的机会本来就很有限。对于F1车队来说，没有欧洲比赛经验的车手，意味着更容易出错、影响成绩，还可能带来更多培训和维修等额外成本。基于风险和花费的考虑，车队一般更愿意选那些已经在欧洲比赛里证明过自己的车手，而不是冒险让没有欧洲经验的新面孔上阵。
+所以对于非欧洲车手来说，要想被F1车队注意，就要尽早去欧洲参赛训练，而且这些年，去欧洲的车手年龄也越来越小。上世纪最著名的车手塞纳，第一次从巴西前往英国参加初阶方程式比赛的年龄是21岁，而今天，F1的澳洲车手皮亚斯特里和阿根廷车手[科拉平托](https://www.nytimes.com/2024/10/17/sports/autoracing/f1-united-states-grand-prix-austin)，都在14岁就独自前往欧洲追求自己的赛车生涯。中国第一位F1车手[周冠宇](https://mp.weixin.qq.com/s/oud9nWzloJR1a0gqaiu84g)，也是在13岁便前往英国参赛。
+[华盛顿邮报](https://www.washingtonpost.com/sports/interactive/2023/formula-one-american-drivers/)指出，前往欧洲参赛，对大多数家庭都是「文化与经济的双重挑战」。仅仅是参加F3的席位，就需要每年花费130万美元左右，F2的费用则是这个数字的两倍，教练、差旅以及比赛损坏的保险单的费用还需要另外支付，许多天才少年都因为经济压力中途被迫放弃。同时，进入欧洲后，外国车手往往也难以适应F1青训体系和欧洲车队的工作方式。特别对于美国车手来说，方程式赛车与美国主要的赛车赛事，在赛道和对车手的要求上，都有很大的区别，一位从小就专注于训练美式赛车的车手，往往很难适应方程式赛车的节奏。有[行业媒体](https://eaglenews.org/32813/opinion/why-are-there-no-american-drivers-in-f1/)认为，美国的本土赛事已经能让车手赚取到丰厚报酬，相对于前往异国他乡，还要花费上亿美元才能获得的F1席位，很多年轻的美国车手也更倾向于留在美国赛车体系中追求成功。
+
+**原因之三：参赛席位 限制晋级机会**
+目前，F1只有20个正式参赛席位，虽然明年马上会增加到22个，但席位仍然很少。行业媒体 [AutoSport](https://www.autosport.com/f1/news/is-the-pathway-to-f1-broken-with-spots-for-young-drivers-hard-to-come-by/10678777/?utm_source=chatgpt.com)指出，由于参赛席位限制，即使是连续夺得 F2 或 F3 的冠军车手，也未必能很快升入 F1，他们仍然需等待席位空缺，或者只能以替补的身份出现。同时，F2和F3的首席执行官[表示](https://www.autosport.com/f1/news/is-the-pathway-to-f1-broken-with-spots-for-young-drivers-hard-to-come-by/10678777/?utm_source=chatgpt.com)，顶级车队往往更倾向选择有f1赛场经验的老车手，认为让他们参赛的风险，要小于从下级方程式晋升上来的新车手。这也降低了参加比赛车手的流动性。虽然明年新加入的美国车队凯迪拉克表示，车队可能会考虑选择美国车手，但[天空体育](https://www.skysports.com/f1/news/12433/13363895/cadillac-f1-team-graeme-lowdon-says-outfit-will-only-select-american-driver-on-merit-for-2026-season?utm_source=chatgpt.com)认为，成绩是比国籍更重要的决定因素。
+`;

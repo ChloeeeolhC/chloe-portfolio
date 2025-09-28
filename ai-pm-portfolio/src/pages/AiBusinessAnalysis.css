@@ -1,0 +1,35 @@
+.case-card {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    height: 100%;
+}
+
+.card-logo-img {
+    height: 180px;
+    object-fit: contain; /* Ensures logos are not stretched */
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+
+.case-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Styling for the tabs to match the site theme */
+.nav-tabs .nav-link {
+    color: #000;
+    font-size: 18px;
+}
+
+.nav-tabs .nav-link.active {
+    color: #000;
+    font-weight: bold;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.modal-content-wrapper {
+    max-height: 60vh; /* Set a max height for the content area */
+    overflow-y: auto; /* Add a scrollbar when content overflows */
+}
