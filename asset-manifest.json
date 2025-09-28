@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ai-pm-portfolio/static/css/main.4f4a7f86.css",
-    "main.js": "/ai-pm-portfolio/static/js/main.aedc4058.js",
-    "static/js/453.2d2a0eb7.chunk.js": "/ai-pm-portfolio/static/js/453.2d2a0eb7.chunk.js",
-    "static/media/字体圈欣意吉祥宋.ttf": "/ai-pm-portfolio/static/media/字体圈欣意吉祥宋.908e9e208dfa1c0ec4ea.ttf",
-    "static/media/user-research-analysis.png": "/ai-pm-portfolio/static/media/user-research-analysis.c4dc708831177b401f9e.png",
-    "index.html": "/ai-pm-portfolio/index.html",
-    "main.4f4a7f86.css.map": "/ai-pm-portfolio/static/css/main.4f4a7f86.css.map",
-    "main.aedc4058.js.map": "/ai-pm-portfolio/static/js/main.aedc4058.js.map",
-    "453.2d2a0eb7.chunk.js.map": "/ai-pm-portfolio/static/js/453.2d2a0eb7.chunk.js.map"
+    "main.css": "/chloe-portfolio/static/css/main.326ded72.css",
+    "main.js": "/chloe-portfolio/static/js/main.536e9183.js",
+    "static/js/453.2d2a0eb7.chunk.js": "/chloe-portfolio/static/js/453.2d2a0eb7.chunk.js",
+    "static/media/字体圈欣意吉祥宋.ttf": "/chloe-portfolio/static/media/字体圈欣意吉祥宋.908e9e208dfa1c0ec4ea.ttf",
+    "static/media/user-research-analysis.png": "/chloe-portfolio/static/media/user-research-analysis.c4dc708831177b401f9e.png",
+    "index.html": "/chloe-portfolio/index.html",
+    "main.326ded72.css.map": "/chloe-portfolio/static/css/main.326ded72.css.map",
+    "main.536e9183.js.map": "/chloe-portfolio/static/js/main.536e9183.js.map",
+    "453.2d2a0eb7.chunk.js.map": "/chloe-portfolio/static/js/453.2d2a0eb7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f4a7f86.css",
-    "static/js/main.aedc4058.js"
+    "static/css/main.326ded72.css",
+    "static/js/main.536e9183.js"
   ]
 }
