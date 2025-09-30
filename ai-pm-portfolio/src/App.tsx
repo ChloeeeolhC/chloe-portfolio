@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -6,13 +7,21 @@ import Home from './pages/Home';
 import AiBusinessAnalysis from './pages/AiBusinessAnalysis';
 import ProductUx from './pages/ProductUx';
 import AiLab from './pages/AiLab';
-import About from './pages/About';
+import Contact from './pages/Contact';
 import './App.css';
 
 function App() {
+  const appStyle = {
+    backgroundImage: `url(${process.env.PUBLIC_URL}/images/home-page.jpg)`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundAttachment: 'fixed',
+  };
+
   return (
     <Router>
-      <div className="App d-flex flex-column min-vh-100">
+      <div className="App d-flex flex-column min-vh-100" style={appStyle}>
         <Navbar />
         <main className="flex-shrink-0">
           <Routes>
@@ -20,7 +29,7 @@ function App() {
             <Route path="/ai-business-analysis" element={<AiBusinessAnalysis />} />
             <Route path="/product-ux" element={<ProductUx />} />
             <Route path="/ai-lab" element={<AiLab />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <Footer />

@@ -1,9 +1,42 @@
-
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
+
+  useEffect(() => {
+    // Find the elements that need to be animated
+    const heading = document.querySelector('.hero-heading');
+    const fadeInSection = document.querySelector('.fade-in-delay');
+    const arrow = document.querySelector('.arrow-container');
+
+    // A helper function to add classes and ensure they exist
+    const applyAnimation = (element: Element | null, animClass: string) => {
+      if (element) {
+        element.classList.add(animClass);
+      }
+    };
+
+    // Apply the animation classes
+    applyAnimation(heading, 'animate-jump-and-shrink');
+    applyAnimation(fadeInSection, 'animate-fade-in');
+    applyAnimation(arrow, 'animate-bounce');
+
+    // Return a cleanup function
+    return () => {
+      // This function runs when the component is "unmounted" (when you navigate away)
+      // It removes the animation classes, resetting them for the next visit.
+      const removeAnimation = (element: Element | null, animClass: string) => {
+        if (element) {
+          element.classList.remove(animClass);
+        }
+      };
+      removeAnimation(heading, 'animate-jump-and-shrink');
+      removeAnimation(fadeInSection, 'animate-fade-in');
+      removeAnimation(arrow, 'animate-bounce');
+    };
+  }, []); // The empty array [] ensures this effect runs only on mount and unmount
+
   return (
     <>
       {/* Hero Section */}

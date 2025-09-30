@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Tab, Tabs } from 'react-bootstrap';
 import './ProductUx.css';
@@ -6,7 +7,8 @@ const userResearchCases = [
   {
     title: 'App设计初期用户画像研究与分析',
     subtitle: '以面向大学生的健身App为例',
-    image: require('../assets/images/user-research-analysis.png'),
+    // CORRECTED PATH:
+    image: `${process.env.PUBLIC_URL}/images/user-research-analysis.png`,
     imageSubtitle: 'Designed by Figma',
     content: `
       <h5>项目背景</h5>
@@ -61,6 +63,7 @@ const ProductUx = () => {
                 </div>
                 {study.image && (
                   <div className="col-lg-7">
+                    {/* CORRECTED USAGE: */}
                     <img src={study.image} alt={study.title} className="img-fluid rounded shadow-sm" />
                     {study.imageSubtitle && <p className="text-center text-muted mt-2 small">{study.imageSubtitle}</p>}
                   </div>

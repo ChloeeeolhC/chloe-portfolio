@@ -42,21 +42,26 @@
 .hero-heading {
     font-size: 96px;
     font-weight: normal;
-    animation: jumpAndShrink 1.5s ease-out forwards;
 }
 
 .fade-in-delay {
     opacity: 0; /* Start hidden */
-    animation: fadeIn 1s ease-in 1.5s forwards; /* 1.5s delay */
-}
-
-.hero-subheading {
-    font-size: 24px; /* A reasonable size for the subtitle */
-    margin-top: 20px;
 }
 
 .arrow-container {
     margin-top: 50px;
+}
+
+/* Animation Utility Classes */
+.animate-jump-and-shrink {
+    animation: jumpAndShrink 1.5s ease-out forwards;
+}
+
+.animate-fade-in {
+    animation: fadeIn 1s ease-in 1.5s forwards; /* 1.5s delay */
+}
+
+.animate-bounce {
     animation: bounce 2s infinite 2.5s; /* 2.5s delay to start after fade-in */
 }
 
