@@ -7,12 +7,12 @@ const aiProjects = [
   {
     title: '竞品分析助手',
     description: '一个用于辅助完成竞品分析报告的AI Agent。',
-    link: 'http://192.144.142.60:3027/competitive-analysis',
+    link: 'http://192.144.142.60:3076/competitive-analysis',
   },
   {
     title: 'PRD写作助手',
     description: '一个辅助产品经理撰写高质量产品需求文档的AI Agent。',
-    link: 'http://192.144.142.60:3027/prd-writer',
+    link: 'http://192.144.142.60:3076/prd-writer',
   },
 ];
 
