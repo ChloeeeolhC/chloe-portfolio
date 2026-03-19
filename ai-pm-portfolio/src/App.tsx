@@ -8,6 +8,7 @@ import AiBusinessAnalysis from './pages/AiBusinessAnalysis';
 import ProductUx from './pages/ProductUx';
 import AiLab from './pages/AiLab';
 import Contact from './pages/Contact';
+
 import './App.css';
 
 function App() {
@@ -20,15 +21,15 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App d-flex flex-column min-vh-100" style={appStyle}>
         <Navbar />
         <main className="flex-shrink-0">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/ai-business-analysis" element={<AiBusinessAnalysis />} />
+            <Route path="/business-analysis" element={<AiBusinessAnalysis />} />
             <Route path="/product-ux" element={<ProductUx />} />
-            <Route path="/ai-lab" element={<AiLab />} />
+            <Route path="/ai-tools" element={<AiLab />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

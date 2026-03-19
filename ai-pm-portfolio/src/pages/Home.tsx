@@ -1,85 +1,173 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
-
-  useEffect(() => {
-    // Find the elements that need to be animated
-    const heading = document.querySelector('.hero-heading');
-    const fadeInSection = document.querySelector('.fade-in-delay');
-    const arrow = document.querySelector('.arrow-container');
-
-    // A helper function to add classes and ensure they exist
-    const applyAnimation = (element: Element | null, animClass: string) => {
-      if (element) {
-        element.classList.add(animClass);
-      }
-    };
-
-    // Apply the animation classes
-    applyAnimation(heading, 'animate-jump-and-shrink');
-    applyAnimation(fadeInSection, 'animate-fade-in');
-    applyAnimation(arrow, 'animate-bounce');
-
-    // Return a cleanup function
-    return () => {
-      // This function runs when the component is "unmounted" (when you navigate away)
-      // It removes the animation classes, resetting them for the next visit.
-      const removeAnimation = (element: Element | null, animClass: string) => {
-        if (element) {
-          element.classList.remove(animClass);
-        }
-      };
-      removeAnimation(heading, 'animate-jump-and-shrink');
-      removeAnimation(fadeInSection, 'animate-fade-in');
-      removeAnimation(arrow, 'animate-bounce');
-    };
-  }, []); // The empty array [] ensures this effect runs only on mount and unmount
-
   return (
     <>
       {/* Hero Section */}
-      <div className="home-container d-flex justify-content-center align-items-center">
-        <div className="text-center">
-          <h1 className="hero-heading">Hi, I'm Chloe!</h1>
-          <div className="fade-in-delay">
-            <h2 className="hero-subheading">An AI product manager</h2>
-            <div className="arrow-container">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 5V19M12 19L7 14M12 19L17 14" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
-          </div>
+      <div className="hero-section d-flex flex-column justify-content-center align-items-center text-center">
+        {/* Avatar */}
+        <div className="hero-avatar">
+          <img
+            src={`${process.env.PUBLIC_URL}/images/profile.jpg`}
+            alt="Chloe Tao"
+          />
+        </div>
+
+        {/* Name */}
+        <h1 className="hero-name">Chloe Tao</h1>
+
+        {/* Subtitle */}
+        <p className="hero-subtitle">
+          Journalist by training, analyst by habit, builder by accident.
+        </p>
+        <p className="hero-tagline">Interested in the gap between how technology is made and how it's understood.</p>
+
+        {/* CTA Button */}
+        <a href="#my-work" className="hero-cta">
+          <span className="cta-dot" />
+          Explore My Work
+        </a>
+
+        {/* Category Tags */}
+        <div className="hero-tags d-flex gap-3">
+          <Link to="/business-analysis" className="hero-tag">商业分析</Link>
+          <Link to="/product-ux" className="hero-tag">产品 & UX</Link>
+          <Link to="/ai-tools" className="hero-tag">AI 工具实践</Link>
         </div>
       </div>
 
-      {/* About Me & Experience Section */}
-      <div className="container my-5 py-5">
-        <div className="row">
-          <div className="col-md-4">
-            <h3>About Me</h3>
-            <p>AIGC 产品新人,具备媒体行业深度理解和 AI 应用实践经验。通过新闻专业训练具备敏锐的用户需求洞察力,能够快速从复杂信息中提炼核心价值点。在多个内容产品项目中积累了数据驱动的产品迭代经验,善于通过用户反馈优化产品体验。曾在商业科技媒体「声动早咖啡」实习,对AIGC技术发展保持高度关注,撰写多个AI 行业深度分析文稿,且在日常深度使用各类 AI 工具辅助工作,具备将AI 能力与业务场景结合的产品思维。</p>
+      {/* Trajectory Section */}
+      <div id="my-work" className="trajectory-section container">
+
+        <div className="trajectory-intro">
+          <p className="trajectory-question">
+            我关注信息是怎么变成决策的——<br />
+            在媒体公司、在产品团队、在快速生长的 AI 行业里。
+          </p>
+        </div>
+
+        <div className="trajectory-timeline">
+
+          {/* Node 1 */}
+          <div className="traj-node">
+            <div className="traj-spine">
+              <div className="traj-dot" />
+              <div className="traj-line" />
+            </div>
+            <div className="traj-card">
+              <span className="traj-context-tag">产品团队</span>
+              <div className="traj-header">
+                <div>
+                  <h4 className="traj-company">北京思维造物 · 得到 App</h4>
+                  <p className="traj-role">用户探究运营</p>
+                </div>
+                <span className="traj-date">2024.5 – 2024.8</span>
+              </div>
+              <p className="traj-desc">基于 10+ 竞品案例与用户访谈进行差异化分析，重构课程产品 UI 逻辑。基于 RFM 分析调整分层运营策略，全链路活动数据回溯累计 GMV 超 370w。</p>
+              <div className="traj-metrics">
+                <span>完课率 +40%</span>
+                <span>活跃度 +40%</span>
+                <span>流失率 -20%</span>
+                <span>GMV 370w+</span>
+              </div>
+            </div>
           </div>
-          <div className="col-md-7 offset-md-1">
-            <h3>Work Experience</h3>
-            <div className="experience-item mb-4">
-              <h5>北京声动活泼 (2025.4 ~ 2025.8)</h5>
-              <p><strong>内容研究:</strong> 构建AI辅助的商业科技内容生产流程, 提升内容生产效率300%。协助构建AIGC新闻助手, 提升创作效率。</p>
+
+          {/* Node 2 */}
+          <div className="traj-node">
+            <div className="traj-spine">
+              <div className="traj-dot" />
+              <div className="traj-line" />
             </div>
-            <div className="experience-item mb-4">
-              <h5>北京思维造物 (2024.5 ~ 2024.8)</h5>
-              <p><strong>用户运营:</strong> 搭建产品内容体系, 提升用户完课率40%。构建用户转化漏斗模型, 提升私域用户活跃度40%。</p>
+            <div className="traj-card">
+              <span className="traj-context-tag">媒体公司</span>
+              <div className="traj-header">
+                <div>
+                  <h4 className="traj-company">北京声动活泼 · 声动早咖啡</h4>
+                  <p className="traj-role">行业研究</p>
+                </div>
+                <span className="traj-date">2025.4 – 2025.8</span>
+              </div>
+              <p className="traj-desc">处理 500+ 份行业研究报告，产出游戏、即时零售、文娱消费等行业分析，吸引字节 AI 产品、迪士尼等品牌投放。设计 AI 商分写作助手，实现多源信息整合与选题筛选。</p>
+              <div className="traj-metrics">
+                <span>单集播放 50w+</span>
+                <span>创作效率 +50%</span>
+                <span>500+ 份报告</span>
+              </div>
             </div>
-            <div className="experience-item mb-4">
-              <h5>博物圈圈文化公司 (2023.3 ~ 2023.9)</h5>
-              <p><strong>产品经理:</strong> 独立完成产品文案及内容策划, 带动销量提升50%。运营小红书账号, 3个月浏览量100w+。</p>
+          </div>
+
+          {/* Node 3 */}
+          <div className="traj-node">
+            <div className="traj-spine">
+              <div className="traj-dot traj-dot-active" />
             </div>
-            <div className="text-end mt-4">
-                <a href="/Chloe-Tao-CV.pdf" download className="btn btn-download">Download CV</a>
+            <div className="traj-card traj-card-active">
+              <span className="traj-context-tag traj-context-current">AI 行业 · 当前</span>
+              <div className="traj-header">
+                <div>
+                  <h4 className="traj-company">美团 Keeta · 商业分析（客户体验）</h4>
+                  <p className="traj-role">独立搭建客户体验分析工具链 · 设计分析指标体系</p>
+                </div>
+                <span className="traj-date">2025.11 – 至今</span>
+              </div>
+              <p className="traj-desc">ETL 建表与建模接入 AI 模型，实现案例自动化总结与系统性问题识别。搭建地区业务、人力、退赔监控等多类分析看板，定期产出客户体验专题报告。</p>
+              <div className="traj-metrics">
+                <span>效率提升 15x</span>
+                <span>节省 4000h/年</span>
+                <span>满意度 70%+</span>
+              </div>
             </div>
+          </div>
+
+        </div>
+
+        <div className="trajectory-closing">
+          <p>我不只是会写分析，我会设计让分析真正被用上的系统。</p>
+        </div>
+
+        {/* Project Experience */}
+        <div className="proj-exp-section">
+          <h3 className="proj-exp-title">Project Experience</h3>
+          <div className="proj-exp-list">
+            <div className="proj-exp-item">
+              <div className="proj-exp-left">
+                <a href="https://readymag.website/u1830893051/5607179/" target="_blank" rel="noopener noreferrer" className="proj-exp-name">
+                  第十届中国数据新闻大赛
+                </a>
+                <span className="proj-exp-award">全国一等奖 & 最佳数据新闻可视化奖</span>
+              </div>
+              <span className="proj-exp-date">2025.5 – 2025.11</span>
+            </div>
+            <p className="proj-exp-desc">聚焦租房市场乱象，定义"串串房"识别特征指标，Python 整合多源异构数据，利用相关性分析还原行业灰色产业链。Echarts/D3.js 制作高交互性动态图表，Storytelling 方式呈现复杂数据场景。</p>
+
+            <div className="proj-exp-item">
+              <div className="proj-exp-left">
+                <a href="https://voiceofcontext.substack.com/" target="_blank" rel="noopener noreferrer" className="proj-exp-name">
+                  Voice of Context
+                </a>
+                <span className="proj-exp-award">独立撰稿 · Substack</span>
+              </div>
+              <span className="proj-exp-date">2025.5 – 2026.1</span>
+            </div>
+            <p className="proj-exp-desc">独立研究并撰写中国 AI/科技行业深度英文分析，覆盖字节跳动、Manus、泡泡玛特等头部公司动态，面向国际读者提供一手行业解读。</p>
+
+            <div className="proj-exp-item">
+              <div className="proj-exp-left">
+                <span className="proj-exp-name">博物圈圈</span>
+                <span className="proj-exp-award">联合创始人 & 产品经理</span>
+              </div>
+              <span className="proj-exp-date">2023.3 – 2023.9</span>
+            </div>
+            <p className="proj-exp-desc">主导课程产品设计与用户调研，基于转化数据迭代课程方案与营销策略，产品销量提升 50%。运营小红书内容与社群，3 个月浏览量 100w+，创收 50w+。</p>
+          </div>
+          <div className="mt-4">
+            <a href={`${process.env.PUBLIC_URL}/中传26届陶汝欣-简历.pdf`} download className="btn btn-download">Download Resume</a>
           </div>
         </div>
+
       </div>
 
       {/* Project Cards Section */}
@@ -88,9 +176,9 @@ const Home = () => {
         <div className="row">
           {/* Card 1 */}
           <div className="col-md-4 mb-4">
-            <Link to="/ai-business-analysis" className="card project-card card-1">
+            <Link to="/business-analysis" className="card project-card card-1">
               <div className="card-body d-flex align-items-center justify-content-center">
-                <h4 className="card-title">AI & Business Analysis</h4>
+                <h4 className="card-title">商业分析</h4>
               </div>
             </Link>
           </div>
@@ -98,15 +186,15 @@ const Home = () => {
           <div className="col-md-4 mb-4">
             <Link to="/product-ux" className="card project-card card-2">
               <div className="card-body d-flex align-items-center justify-content-center">
-                <h4 className="card-title">Product & UX</h4>
+                <h4 className="card-title">产品 & UX</h4>
               </div>
             </Link>
           </div>
           {/* Card 3 */}
           <div className="col-md-4 mb-4">
-            <Link to="/ai-lab" className="card project-card card-3">
+            <Link to="/ai-tools" className="card project-card card-3">
               <div className="card-body d-flex align-items-center justify-content-center">
-                <h4 className="card-title">AI Lab</h4>
+                <h4 className="card-title">AI 工具实践</h4>
               </div>
             </Link>
           </div>

@@ -15,13 +15,13 @@ const Navbar = () => {
               <Link className="nav-link" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/ai-business-analysis">AI & Business Analysis</Link>
+              <Link className="nav-link" to="/business-analysis">商业分析</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/product-ux">Product & UX</Link>
+              <Link className="nav-link" to="/product-ux">产品 & UX</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/ai-lab">AI Lab</Link>
+              <Link className="nav-link" to="/ai-tools">AI 工具实践</Link>
             </li>
             <li className="nav-item ms-3">
               <Link className="nav-link contact-btn" to="/contact">Contact Me</Link>
