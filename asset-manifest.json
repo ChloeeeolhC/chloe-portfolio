@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/chloe-portfolio/static/css/main.b6afaaeb.css",
-    "main.js": "/chloe-portfolio/static/js/main.e17b3e67.js",
+    "main.js": "/chloe-portfolio/static/js/main.e8d6c541.js",
     "static/js/453.2d2a0eb7.chunk.js": "/chloe-portfolio/static/js/453.2d2a0eb7.chunk.js",
     "static/media/字体圈欣意吉祥宋.ttf": "/chloe-portfolio/static/media/字体圈欣意吉祥宋.908e9e208dfa1c0ec4ea.ttf",
     "index.html": "/chloe-portfolio/index.html",
     "main.b6afaaeb.css.map": "/chloe-portfolio/static/css/main.b6afaaeb.css.map",
-    "main.e17b3e67.js.map": "/chloe-portfolio/static/js/main.e17b3e67.js.map",
+    "main.e8d6c541.js.map": "/chloe-portfolio/static/js/main.e8d6c541.js.map",
     "453.2d2a0eb7.chunk.js.map": "/chloe-portfolio/static/js/453.2d2a0eb7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6afaaeb.css",
-    "static/js/main.e17b3e67.js"
+    "static/js/main.e8d6c541.js"
   ]
 }
