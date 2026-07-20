@@ -1,7 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
+import { useLang } from '../contexts/LanguageContext';
 
 const Navbar = () => {
+  const { lang, toggle, t } = useLang();
+
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container">
@@ -12,19 +15,24 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto align-items-center">
             <li className="nav-item">
-              <Link className="nav-link" to="/">Home</Link>
+              <NavLink className="nav-link" to="/" end>Home</NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/business-analysis">商业分析</Link>
+              <NavLink className="nav-link" to="/english-writing">English Writing</NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/product-ux">产品 & UX</Link>
+              <NavLink className="nav-link" to="/growth-seo">AI Growth</NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/ai-tools">AI 工具实践</Link>
+              <NavLink className="nav-link" to="/business-analysis">{t('商业分析', 'Analysis')}</NavLink>
             </li>
-            <li className="nav-item ms-3">
-              <Link className="nav-link contact-btn" to="/contact">Contact Me</Link>
+            <li className="nav-item ms-2">
+              <button className="lang-toggle" onClick={toggle} aria-label="Switch language">
+                {lang === 'cn' ? 'EN' : '中文'}
+              </button>
+            </li>
+            <li className="nav-item ms-2">
+              <NavLink className="nav-link contact-btn" to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>

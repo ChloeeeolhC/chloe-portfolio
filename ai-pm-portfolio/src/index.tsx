@@ -5,6 +5,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const base = process.env.PUBLIC_URL;
+if (base && window.location.pathname === '/') {
+  window.history.replaceState(null, '', base);
+}
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
