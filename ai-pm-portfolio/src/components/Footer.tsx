@@ -2,9 +2,14 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="footer mt-auto py-3 bg-dark">
-      <div className="container text-center">
-        <span>© 2024 陶汝欣. All Rights Reserved.</span>
+    <footer className="site-footer mt-auto">
+      <div className="container footer-inner">
+        <span className="footer-copy">© 2026 陶汝欣 Chloe Tao · Content × Growth</span>
+        <div className="footer-links">
+          <a href="https://voiceofcontext.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>
+          <a href="https://github.com/ChloeeeolhC" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="mailto:chloetao9917@163.com">Email</a>
+        </div>
       </div>
     </footer>
   );
